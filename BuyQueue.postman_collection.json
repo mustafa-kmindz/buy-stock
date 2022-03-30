@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "44d6a0c1-27dc-4ad5-b036-bb0317f0d6de",
+		"name": "BuyQueue",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "buy_clicked - Sandeep",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/buy_clicked?name=Sandeep&time=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"buy_clicked"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sandeep"
+						},
+						{
+							"key": "time",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buy_clicked - Mustafa",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "name",
+						"value": "Mustafa",
+						"type": "text"
+					},
+					{
+						"key": "time",
+						"value": "10",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/buy_clicked?name=Mustafa&time=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"buy_clicked"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Mustafa"
+						},
+						{
+							"key": "time",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buy_clicked - Dummy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "name",
+						"value": "Mustafa",
+						"type": "text"
+					},
+					{
+						"key": "time",
+						"value": "5",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/buy_clicked?name=Dummy&time=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"buy_clicked"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Dummy"
+						},
+						{
+							"key": "time",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "purchase_complete - Dummy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "name",
+						"value": "Mustafa",
+						"type": "text"
+					},
+					{
+						"key": "time",
+						"value": "5",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/buy_complete?name=Dummy&time=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"buy_complete"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Dummy"
+						},
+						{
+							"key": "time",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
